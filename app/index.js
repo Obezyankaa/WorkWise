@@ -28,7 +28,7 @@ export default function Home() {
             />
           ),
           headerRight: () => (
-            <ScreenHeaderBtn iconUrl={imagesx.profile} dimension="100%" />
+            <ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />
           ),
           headerTitle: "",
         }}
