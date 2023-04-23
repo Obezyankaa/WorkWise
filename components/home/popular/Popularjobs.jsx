@@ -43,7 +43,7 @@ const Popularjobs = () => {
           <Text>Something went wrong</Text>
         ) : (
           <FlatList
-            showsHorizontalScrollIndicator={false}
+            // showsHorizontalScrollIndicator={false}
             data={data}
             renderItem={({ item }) => (
               <PopularJobCard

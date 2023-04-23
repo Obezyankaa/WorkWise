@@ -1,15 +1,13 @@
-# Expo Router Example
+# WorkWise
 
-Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
+## About the project 
+Along with the creation of this application:
+- Develop visually appealing UI/UX designs
+- retrieve data from external APIs and integrate them
+- Implement search and pagination functions
+- Create custom hooks to retrieve data from the API
+- write clean, organized and maintainable code with the right architecture
 
-## 🚀 How to use
+📲 My telegram you can text me [Telegram](https://t.me/Voloshanovskiy_V)
 
-```sh
-npx create-react-native-app -t with-router
-```
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://expo.github.io/router)
-- [Expo Router: Repo](https://github.com/expo/router)
-- [Request for Comments](https://github.com/expo/router/discussions/1)
+![RN Course](./preview.png)
