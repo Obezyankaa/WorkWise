@@ -19,7 +19,7 @@ const Popularjobs = () => {
     query: "React developer",
     num_pages: "1",
   });
-// test git 
+
   const [selectedJob, setSelectedJob] = useState();
 
   const handleCardPress = (item) => {
@@ -38,12 +38,11 @@ const Popularjobs = () => {
 
       <View style={styles.cardsContainer}>
         {isLoading ? (
-          <ActivityIndicator size="large" color={COLORS.primary} />
+          <ActivityIndicator size='large' color={COLORS.primary} />
         ) : error ? (
           <Text>Something went wrong</Text>
         ) : (
           <FlatList
-            // showsHorizontalScrollIndicator={false}
             data={data}
             renderItem={({ item }) => (
               <PopularJobCard
